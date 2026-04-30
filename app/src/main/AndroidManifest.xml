@@ -11,7 +11,7 @@
         android:supportsRtl="true">
         <activity
             android:name=".MainActivity"
-            android:label="Clojure Android Demo"
+            android:label="Geococcyx"
             android:theme="@style/AppTheme"
             android:exported="true">
             <intent-filter>

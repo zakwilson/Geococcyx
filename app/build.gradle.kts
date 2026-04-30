@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.clojuredroid"
+    namespace = "com.goodanser.geococcyx"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.clojuredroid"
+        applicationId = "com.goodanser.geococcyx"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
-        versionName = "1.0"
+        versionName = "0.0.1"
     }
 
     buildTypes {
@@ -45,6 +45,8 @@ android {
 
 clojureOptions {
     warnOnReflection.set(true)
+    replEnabled.set(true)
+    dynamicCompilationEnabled.set(true)
 }
 
 dependencies {
